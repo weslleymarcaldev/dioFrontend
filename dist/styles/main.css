@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Reset básico para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #545454;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Estilo para as seções */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #35424a;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
